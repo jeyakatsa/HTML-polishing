@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <h1>Please Register</h1>
+
+            <label for="first_name">
+                First Name:<input type="text" id="first_name" name="first_name">
+            </label>
+           <br>
+            <label for="last_name">
+                Last Name:<input type="text" id="last_name" name="last_name">
+            </label>
+           <br>
+            <label for="email">
+                Email:<input type="text" id="email" name="email">
+            </label>
+           <br>
+            <label>
+                Password:<input type="password" name="password">
+            </label>
+           <br>
+            <label>
+                PW Confirm:<input type="password" name="password-confirm">
+            </label>
+           <br>
+            <label for="birthday">
+                Birthday:<input type="date" id="birthday" name="birthday">
+            </label>
+           <br>
+            <p>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male">
+                    Male
+                </label>
+               
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female">
+                    Female
+                </label>
+
+                <label for="other">
+                    <input type="radio" id="other" name="gender" value="other">
+                    Other
+                </label>
+            </p>
+           <br>
+            <p>A short description about yourself:</p>
+            <textarea name="description"></textarea>
+           <br>
+            <label id="dropdown-label" for="dropdown">
+                Favorite Language
+                <select id="dropdown">
+                    <option selected="true" disabled="disabled">~ tap to select</option>
+                    <option id="options" value="JavaScript">JavaScript</option>
+                    <option id="options" value="Python">Python</option>
+                    <option id="options" value="Java">Java</option>
+                    <option id="options" value="MERN">MERN</option>
+                    <option id="options" value="Other">Other</option>
+                </select>
+            </label>
+           <br>           
+           <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
